@@ -1,0 +1,122 @@
+/* Initialisation des pages */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Commun aux deux pages */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Centrage et couleur du titre principal h1 */
+h1 {
+    text-align: center;
+    color: #0066cc;
+}
+
+/* Centrage et style doux pour les paragraphes */
+p {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+/* Barre de navigation avec liens Accueil et Voir panier */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+}
+
+.lien-accueil a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.lien-panier a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Pied de page avec date et nom du site */
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/*  INDEX.PHP */
+
+/* Mise en forme du formulaire d’ajout */
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    width: fit-content;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+
+/* Style des labels et champs de formulaire */
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+label input {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*  RECAP.PHP */
+
+
+/* Mise en forme du tableau récapitulatif */
+table {
+    width: 50%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: #eee;
+}
+
+
+/* centrer effacer mon panier */
+
+.effacer-panier {
+    text-align: center;
+    margin-top: 2rem;
+}
+
